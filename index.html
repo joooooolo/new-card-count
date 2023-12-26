@@ -9,22 +9,28 @@
     </head>
    
     <body>
-        <div id="dealer">
-               </div>
-               <div id="result">
-           <h1>Results</h1>
-               </div>
-               <div id="player">
-               </div>
-               <div id="buttons">
-           <h1>Buttons</h1>
-           <button id="new-hand">New Hand</button>
-           <button id="hit">Hit</button>
-           <button id="stay">Stay</button>
-           <button id="double">Double</button>
-           <button id="split">Split</button>
+        <h2>Dealer Score: <span id="dealer-score"></span></h2>
+        <div id="dealer-cards">
+             <!--<img id="hidden" src="cards/BACK.png">-->
+        </div>
+
+        
+        <div id="result"></div>
+        <h2>Player Score: <span id="player-score"></span></h2>
+
+        <div id="player-cards"></div>
+        
+        <div>
+       <br>
+    
+        <button id="new-hand">New Hand</button>
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+        </div>
+        <p id="results"></p>
+           <!--<button id="double">Double</button>-->
+           <!--<button id="split">Split</button>-->
            <!--<button id="shuffle">Shuffle</button>-->
-               </div>
         <script src="main.js"></script>
     </body>
 </html>
