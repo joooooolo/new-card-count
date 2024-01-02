@@ -1,20 +1,46 @@
 body {
-    background-color:teal;
-    text-align: center;
-    
+  background-color: teal;
+  text-align: center;
 }
 
 #dealer-cards img {
-    height: 200px;
-    width: 150px;
-    margin: 1px;
-    
+  height: 200px;
+  width: 150px;
+  margin: 1px;
 }
 
 #player-cards img {
-    height: 200px;
-    width: 150px;
-    margin: 1px;
-    
+  height: 200px;
+  width: 150px;
+  margin: 1px;
 }
 
+#hit,
+#new-hand,
+#stay {
+  margin-top: 50px;
+  font-size: 30px;
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100;
+  width: 300;
+  background-color: teal;
+  border: 2px solid whitesmoke;
+  border: whitesmoke 2px solid;
+}
+
+#dealer-score,
+#player-score,
+#results,
+h2 {
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+#hit:hover,
+#new-hand:hover,
+#stay:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
